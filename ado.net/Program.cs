@@ -12,7 +12,7 @@ namespace adonet
         {
             Console.WriteLine("Hello World!");
             // Assumes connectionString is a valid connection string.  
-            using (SqlConnection connection = new SqlConnection(""))  
+            using (SqlConnection connection = new SqlConnection("Server=tcp:munibabdirevature.database.windows.net,1433;Initial Catalog=munibprojectone;Persist Security Info=False;User ID=munibabdi;Password=Dallas2022!!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"))  
             {  
                 connection.Open();
                 // Do work here.  
